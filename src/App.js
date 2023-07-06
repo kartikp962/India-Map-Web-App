@@ -9,6 +9,7 @@ import CityTemperature from './components/CityTemperature';
 
 function App() {
   return (
+    <>
     <div className="App">
       <BrowserRouter>
         <Routes>
@@ -20,6 +21,7 @@ function App() {
         </Routes>
       </BrowserRouter>
     </div>
+      </>
   );
 }
 

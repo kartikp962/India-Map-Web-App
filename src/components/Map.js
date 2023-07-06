@@ -2,18 +2,18 @@ import {React, useState} from 'react'
 import '../App.css'
 import { MapContainer, TileLayer, Marker } from 'react-leaflet'
 import { Icon } from 'leaflet'
-import covidData from '../data.json'
-import icon1 from '../images/covid19-2.png'
+import citiesData from '../data.json'
+import icon1 from '../images/location-marker.png'
 import { useNavigate } from 'react-router-dom'
 
-const covidIcon = new Icon({
+const MapIcon = new Icon({
   iconUrl: icon1,
   iconSize: [25, 25]
 })
 
 
 function Map() {
-  const [ activeCovid, setActiveCovid ] = useState( null );
+  const [ active, setActive ] = useState( null );
   const navigate = useNavigate();
   return (
 
@@ -27,18 +27,17 @@ function Map() {
         attribution='&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
         url = 'https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png'
       />
-       { covidData.map(eachData => (
+       { citiesData.map(eachData => (
          <Marker 
             key={eachData.Id} 
             position= {[eachData.Latitude, eachData.Longitude]}
             eventHandlers={{
               click: () => {
-                setActiveCovid(eachData)
-                // setSelectedStateCities(eachData.Cities);
+                setActive(eachData)
                 navigate('/stateList', { cityLat: eachData.Latitude, cityLon: eachData.Longitude });
               }
             }}
-            icon= {covidIcon}
+            icon= {MapIcon}
           />
        ))}
       </MapContainer> 

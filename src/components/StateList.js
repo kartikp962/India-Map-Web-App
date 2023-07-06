@@ -1,21 +1,18 @@
-import {React, useEffect, useState} from 'react'
+import {React, useState} from 'react'
 import '../App.css'
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
+import { MapContainer, TileLayer, Marker } from 'react-leaflet'
 import { Icon } from 'leaflet'
 import citiesData from '../citiesData.json';
-import icon1 from '../images/covid19-2.png'
+import icon1 from '../images/location-marker.png'
 import { useNavigate } from 'react-router-dom'
-// import { useLocation } from 'react-router-dom';
 
-const covidIcon = new Icon({
+const MapIcon = new Icon({
   iconUrl: icon1,
   iconSize: [25, 25]
 })
 
 function StateList(props) {
-  // const location = useLocation();
-  // const stateCities = location.state && location.state.stateCities ? location.state.stateCities : [];
-  const [ activeCovid, setActiveCovid ] = useState( null );
+  const [ active, setActive ] = useState( null );
 
   const navigate = useNavigate();
 
@@ -36,12 +33,11 @@ function StateList(props) {
             position= {[eachData.lat, eachData.lon]}
             eventHandlers={{
               click: () => {
-                setActiveCovid(eachData)
-                // setSelectedStateCities(eachData.Cities);
+                setActive(eachData)
                 navigate('/cityTemp', {state: {cityName: eachData.name}});
               }
             }}
-            icon= {covidIcon}
+            icon= {MapIcon}
           />
        ))}
       </MapContainer> 

@@ -62,7 +62,7 @@ const Login = () => {
         </div>
         <div className="input-container">
           <p>
-            Already have an account?{" "}
+            Create a new account?{" "}
             <span>
               <Link to="/signup">Sign Up</Link>
             </span>
