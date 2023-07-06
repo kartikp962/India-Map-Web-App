@@ -24,21 +24,21 @@ The first UI interface is the login/signup page from where user can enter into t
 
 ### StateList Page
 
-When clicked on the Plus Icon, a new popup comes up on the screen which gives us the access to add the book and then display itonto the screen
+After clicking on the submit button, a new screen comes up which shows us the map of India where user can also select states by tapping on the marker.
 
 <img width="951" alt="image" src="https://github.com/kartikp962/India-Map-Web-App/assets/114161683/3c84a0ee-5ad4-4c28-8563-aeec45f01692">
 
 
 ### CityList Page
 
-After filling the details of a book, we can add books to the book list.
+After clicking on the marker of a state, user can see the list of cities with their particular markers located.
 
 <img width="957" alt="image" src="https://github.com/kartikp962/India-Map-Web-App/assets/114161683/e5563dd0-d0e8-48aa-9811-62a3bd691dc1">
 
 
 ### Particular City Weather Page
 
-By clicking on ```edit``` button in the book card, we can easily edit the details of it and click on ```save``` to update the details of it.
+By clicking on Marker again, user would be redirected to the city weather page.
 
 <img width="958" alt="image" src="https://github.com/kartikp962/India-Map-Web-App/assets/114161683/67f00d87-db2e-4094-85fa-e7fe8db98030">
 
