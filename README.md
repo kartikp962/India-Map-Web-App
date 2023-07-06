@@ -27,7 +27,7 @@ The first UI interface is the home/main page where book create option is avalabl
 
 When clicked on the Plus Icon, a new popup comes up on the screen which gives us the access to add the book and then display itonto the screen
 
-<img width="951" alt="image" src="![2](https://github.com/kartikp962/India-Map-Web-App/assets/114161683/3c84a0ee-5ad4-4c28-8563-aeec45f01692)">
+<img width="951" alt="image" src="https://github.com/kartikp962/India-Map-Web-App/assets/114161683/3c84a0ee-5ad4-4c28-8563-aeec45f01692">
 
 
 ### CityList Page
