@@ -19,26 +19,30 @@
 
 The first UI interface is the home/main page where book create option is avalable. 
 
-<img width="955" alt="image" src="">
+<img width="955" alt="image" src="![1](https://github.com/kartikp962/India-Map-Web-App/assets/114161683/d086acba-5d34-4c5c-8433-591e99277438)
+">
 
 
 ### StateList Page
 
 When clicked on the Plus Icon, a new popup comes up on the screen which gives us the access to add the book and then display itonto the screen
 
-<img width="951" alt="image" src="https://github.com/kartikp962/Book-App/assets/114161683/efea45e2-8276-4a84-b803-165b767bdaa8">
+<img width="951" alt="image" src="![2](https://github.com/kartikp962/India-Map-Web-App/assets/114161683/3c84a0ee-5ad4-4c28-8563-aeec45f01692)">
+
 
 ### CityList Page
 
 After filling the details of a book, we can add books to the book list.
 
-<img width="957" alt="image" src="https://github.com/kartikp962/Book-App/assets/114161683/93fdcb5c-604d-456c-8a69-20a4b995c23a">
+<img width="957" alt="image" src="![3](https://github.com/kartikp962/India-Map-Web-App/assets/114161683/e5563dd0-d0e8-48aa-9811-62a3bd691dc1)">
+
 
 ### Particular City Weather Page
 
 By clicking on ```edit``` button in the book card, we can easily edit the details of it and click on ```save``` to update the details of it.
 
-<img width="958" alt="image" src="https://github.com/kartikp962/Book-App/assets/114161683/ce89ba13-c892-475a-8d00-ec5e03b8913c">
+<img width="958" alt="image" src="![4](https://github.com/kartikp962/India-Map-Web-App/assets/114161683/67f00d87-db2e-4094-85fa-e7fe8db98030)">
+
 
 
 ### Links
