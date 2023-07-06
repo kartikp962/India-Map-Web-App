@@ -1,6 +1,6 @@
 ## About the INDIA Map Web App
 
-![Book App Video](https://github.com/kartikp962/India-Map-Web-App/assets/114161683/fbc1366e-6dd4-418e-867e-2507d3617be7)
+![INDIA Map Web App Video](https://github.com/kartikp962/India-Map-Web-App/assets/114161683/fbc1366e-6dd4-418e-867e-2507d3617be7)
 
 
 
@@ -19,7 +19,7 @@
 
 The first UI interface is the home/main page where book create option is avalable. 
 
-<img width="955" alt="image" src="https://github.com/kartikp962/Book-App/assets/114161683/b48172f0-c607-4f90-90f5-5dd98addfd32">
+<img width="955" alt="image" src="">
 
 
 ### StateList Page
