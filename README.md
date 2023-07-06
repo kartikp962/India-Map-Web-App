@@ -17,7 +17,7 @@
 
 ### Login/SignUp Page
 
-The first UI interface is the home/main page where book create option is avalable. 
+The first UI interface is the login/signup page from where user can enter into the web app. 
 
 <img width="955" alt="image" src="https://github.com/kartikp962/India-Map-Web-App/assets/114161683/d086acba-5d34-4c5c-8433-591e99277438">
 
@@ -46,8 +46,8 @@ By clicking on ```edit``` button in the book card, we can easily edit the detail
 
 ### Links
 
-- Code: [Github](https://github.com/kartikp962/Book-App.git)
-- Live Site URL: [Netlify](https://book-app-321.netlify.app/)
+- Code: [Github](https://github.com/kartikp962/India-Map-Web-App.git)
+- Live Site URL: [Netlify](https://india-app-web-app.netlify.app/)
 
 
 ### Built with
