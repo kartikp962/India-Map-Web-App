@@ -1,38 +1,129 @@
-.App {
+/* .map-container {
+  height: 100vh;
+}
+
+.state-cities-list {
+  margin-top: 20px;
+} */
+
+.leaflet-container {
+  width: 100%;
+  height: 100vh;
+}
+
+.form {
+  background-color: #ac35fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  height: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+input[type="submit"],
+input[type="button"] {
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  background: #01d28e;
+  border: 1px solid #01d28e;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover {
+  background: #6cf0c2;
+}
+
+input[type="submit"]:disabled,
+input[type="button"]:disabled {
+  background-color: gray;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.button-container .error {
+  font-weight: bold;
+  font-size: 0.875rem;
+  color: #ff3300;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.input-container {
   display: flex;
   flex-direction: column;
+  gap: 8px;
+  margin: 10px;
+}
+
+/* ------------- CityTemperature CSS */
+
+.wetherBg{
+  background: url("https://www.accuweather.com/images/hero/4/1440x450.jpg");
+  height: 60vh;
+  background-repeat: no-repeat;
+  display: flex;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.heading{
+  color:white;
+  font-weight: 700;
+}
+.wetherResultBox{
+  margin: auto;
+  margin-bottom: 15px;
+  width: 500px;
+  height: 320px;
 }
 
-.App-link {
-  color: #61dafb;
+.weatherFooter {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.weatherFooter div {
+  flex: 1;
+  text-align: center;
 }
+
+.weatherFooter p {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.weathorIcon{
+  margin-top: 2rem;
+  width: 100px;
+  height: 100px;
+}
+.weathorCity{
+  font-size: 35px;
+}
+.weathorTemp{
+  font-size:55px;
+  font-weight: 700;
+}
+
+/* ---------------------------- */
